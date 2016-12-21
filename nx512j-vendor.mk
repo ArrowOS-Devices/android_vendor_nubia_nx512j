@@ -193,7 +193,7 @@ vendor/nubia/nx512j/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/li
 vendor/nubia/nx512j/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
-vendor/nubia/nx512j/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
+vendor/nubia/nx512j/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
@@ -334,8 +334,6 @@ vendor/nubia/nx512j/proprietary/vendor/lib64/libtime_genoff.so:system/vendor/lib
 vendor/nubia/nx512j/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
 vendor/nubia/nx512j/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
 vendor/nubia/nx512j/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
-
-
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
