@@ -58,7 +58,7 @@ vendor/nubia/nx512j/proprietary/etc/permissions/qcnvitems.xml:system/etc/permiss
 vendor/nubia/nx512j/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
 vendor/nubia/nx512j/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
 vendor/nubia/nx512j/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
-vendor/nubia/nx512j/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
+vendor/nubia/nx512j/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.msm8916.so \
 vendor/nubia/nx512j/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
 vendor/nubia/nx512j/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
 vendor/nubia/nx512j/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
