@@ -335,6 +335,11 @@ vendor/nubia/nx512j/proprietary/vendor/lib64/libtime_genoff.so:system/vendor/lib
 vendor/nubia/nx512j/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
 vendor/nubia/nx512j/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
 vendor/nubia/nx512j/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
+vendor/nubia/nx512j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Unsigned_configdata.ncd \
+vendor/nubia/nx512j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0090_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0090_Generic_I2C_NCD_Unsigned_configdata.ncd \
+vendor/nubia/nx512j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0092_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0092_Generic_I2C_NCD_Unsigned_configdata.ncd \
+vendor/nubia/nx512j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0102_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0102_Generic_I2C_NCD_Unsigned_configdata.ncd \
+vendor/nubia/nx512j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0104_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0104_Generic_I2C_NCD_Unsigned_configdata.ncd
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
