@@ -339,7 +339,24 @@ vendor/nubia/nx512j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0078
 vendor/nubia/nx512j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0090_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0090_Generic_I2C_NCD_Unsigned_configdata.ncd \
 vendor/nubia/nx512j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0092_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0092_Generic_I2C_NCD_Unsigned_configdata.ncd \
 vendor/nubia/nx512j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0102_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0102_Generic_I2C_NCD_Unsigned_configdata.ncd \
-vendor/nubia/nx512j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0104_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0104_Generic_I2C_NCD_Unsigned_configdata.ncd
+vendor/nubia/nx512j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0104_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0104_Generic_I2C_NCD_Unsigned_configdata.ncd \
+vendor/nubia/nx512j/proprietary/vendorlib/libmmcamera2_mct.so:system/lib/libmmcamera2_mct.so \
+vendor/nubia/nx512j/proprietary/vendorlib/libmmcamera_dbg.so:system/lib/libmmcamera_dbg.so \
+vendor/nubia/nx512j/proprietary/vendorlib/libmmcamera_eztune_module.so:system/lib/libmmcamera_eztune_module.so \
+vendor/nubia/nx512j/proprietary/vendorlib/libmmcamera_ppbase_module.so:system/lib/libmmcamera_ppbase_module.so \
+vendor/nubia/nx512j/proprietary/vendorlib/libmmcamera_tuning.so:system/lib/libmmcamera_tuning.so \
+vendor/nubia/nx512j/proprietary/vendorlib/libmmcamera_tuning_lookup.so:system/lib/libmmcamera_tuning_lookup.so \
+vendor/nubia/nx512j/proprietary/vendorlib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
+vendor/nubia/nx512j/proprietary/vendorlib/libqti-iop-client.so:system/lib/libqti-iop-client.so \
+vendor/nubia/nx512j/proprietary/vendorlib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so:system/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so \
+vendor/nubia/nx512j/proprietary/vendorlib/qcdrm/playready/lib/libprdrmdecrypt_customer.so:system/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so \
+vendor/nubia/nx512j/proprietary/vendorlib/qcdrm/playready/lib/libtzplayready_customer.so:system/lib/qcdrm/playready/lib/libtzplayready_customer.so \
+vendor/nubia/nx512j/proprietary/vendorlib/qcdrm/playready/lib/mediadrm/libprmediadrmdecrypt_customer.so:system/lib/qcdrm/playready/lib/mediadrm \
+vendor/nubia/nx512j/proprietary/vendorlib/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so:system/lib/qcdrm/playready/lib/mediadrm/libprmediadrmdecrypt_customer.so \
+vendor/nubia/nx512j/proprietary/vendorlib64/libqti-iop-client.so:system/lib/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so \
+vendor/nubia/nx512j/proprietary/vendorlib64/qcdrm/playready/lib/libtzplayready_customer.so:system/lib64/libqti-iop-client.so \
+vendor/nubia/nx512j/proprietary/vendorlib64/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so:system/lib64/qcdrm/playready/lib/libtzplayready_customer.so \
+ system/lib64/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
