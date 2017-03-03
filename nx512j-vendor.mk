@@ -30,7 +30,6 @@ vendor/nubia/nx512j/proprietary/bin/netmgrd:system/bin/netmgrd \
 vendor/nubia/nx512j/proprietary/bin/qmuxd:system/bin/qmuxd \
 vendor/nubia/nx512j/proprietary/bin/qseecomd:system/bin/qseecomd \
 vendor/nubia/nx512j/proprietary/bin/radish:system/bin/radish \
-vendor/nubia/nx512j/proprietary/bin/rfs_access:system/bin/rfs_access \
 vendor/nubia/nx512j/proprietary/bin/rmt_storage:system/bin/rmt_storage \
 vendor/nubia/nx512j/proprietary/bin/time_daemon:system/bin/time_daemon \
 vendor/nubia/nx512j/proprietary/etc/capability.xml:system/etc/capability.xml \
