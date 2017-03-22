@@ -106,7 +106,6 @@ vendor/nubia/nx512j/proprietary/vendor/lib/egl/libRBEGL_adreno.so:system/vendor/
 vendor/nubia/nx512j/proprietary/vendor/lib/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib/egl/libRBGLESv1_CM_adreno.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/egl/libRBGLESv2_adreno.so:system/vendor/lib/egl/libRBGLESv2_adreno.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
-vendor/nubia/nx512j/proprietary/vendor/lib/hw/sound_trigger.primary.msm8916.so:system/vendor/lib/hw/sound_trigger.primary.msm8916.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
