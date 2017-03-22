@@ -108,6 +108,12 @@ vendor/nubia/nx512j/proprietary/vendor/lib/egl/libRBGLESv2_adreno.so:system/vend
 vendor/nubia/nx512j/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
+vendor/nubia/nx512j/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libacdbmapper.so:system/vendor/lib64/libacdbmapper.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
+vendor/nubia/nx512j/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
+vendor/nubia/nx512j/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/libactuator_rohm_bu64297gwz.so:system/vendor/lib/libactuator_rohm_bu64297gwz.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/libactuator_rohm_bu64297gwz_camcorder.so:system/vendor/lib/libactuator_rohm_bu64297gwz_camcorder.so \
