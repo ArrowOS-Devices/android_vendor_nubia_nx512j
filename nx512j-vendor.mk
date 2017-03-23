@@ -51,8 +51,6 @@ vendor/nubia/nx512j/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40
 vendor/nubia/nx512j/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
 vendor/nubia/nx512j/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
 vendor/nubia/nx512j/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
-vendor/nubia/nx512j/proprietary/etc/media_codecs_8939.xml:system/etc/media_codecs_8939.xml \
-vendor/nubia/nx512j/proprietary/etc/mixer_paths_mtp.xml:system/etc/mixer_paths_mtp.xml \
 vendor/nubia/nx512j/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
 vendor/nubia/nx512j/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
 vendor/nubia/nx512j/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
