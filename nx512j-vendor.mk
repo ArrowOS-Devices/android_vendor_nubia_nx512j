@@ -17,6 +17,7 @@
 PRODUCT_COPY_FILES += \
 vendor/nubia/nx512j/proprietary/app/shutdownlistener/shutdownlistener.apk:system/app/shutdownlistener/shutdownlistener.apk \
 vendor/nubia/nx512j/proprietary/app/TimeService/TimeService.apk:system/app/TimeService/TimeService.apk \
+vendor/nubia/nx512j/proprietary/app/NubiaCamera/NubiaCamera.apk:system/app/NubiaCamera/NubiaCamera.apk \
 vendor/nubia/nx512j/proprietary/bin/adsprpcd:system/bin/adsprpcd \
 vendor/nubia/nx512j/proprietary/bin/akmd09911:system/bin/akmd09911 \
 vendor/nubia/nx512j/proprietary/bin/btnvtool:system/bin/btnvtool \
@@ -337,6 +338,26 @@ vendor/nubia/nx512j/proprietary/vendor/lib64/libtime_genoff.so:system/vendor/lib
 vendor/nubia/nx512j/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
 vendor/nubia/nx512j/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
 vendor/nubia/nx512j/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
+vendor/nubia/nx512j/proprietary/lib64/libAlgorithm.so:system/lib64/libAlgorithm.so \
+vendor/nubia/nx512j/proprietary/lib64/libBuffer.so:system/lib64/libBuffer.so \
+vendor/nubia/nx512j/proprietary/lib64/libFNVfbEngineLib.so:system/lib64/libFNVfbEngineLib.so \
+vendor/nubia/nx512j/proprietary/lib64/libIndependenceUtil.so:system/lib64/libIndependenceUtil.so \
+vendor/nubia/nx512j/proprietary/lib64/libNubiaImageAlgorithm.so:system/lib64/libNubiaImageAlgorithm.so \
+vendor/nubia/nx512j/proprietary/lib64/libNubiaxmptoolkit.so:system/lib64/libNubiaxmptoolkit.so \
+vendor/nubia/nx512j/proprietary/lib64/libalRnB.so:system/lib64/libalRnB.so \
+vendor/nubia/nx512j/proprietary/lib64/libalSDE2.so:system/lib64/libalSDE2.so \
+vendor/nubia/nx512j/proprietary/lib64/libavcodec.so:system/lib64/libavcodec.so \
+vendor/nubia/nx512j/proprietary/lib64/libavfilter.so:system/lib64/libavfilter.so \
+vendor/nubia/nx512j/proprietary/lib64/libavformat.so:system/lib64/libavformat.so \
+vendor/nubia/nx512j/proprietary/lib64/libavutil.so:system/lib64/libavutil.so \
+vendor/nubia/nx512j/proprietary/lib64/libbuffer_manager.so:system/lib64/libbuffer_manager.so \
+vendor/nubia/nx512j/proprietary/lib64/libmorpho_panorama_gp.so:system/lib64/libmorpho_panorama_gp.so \
+vendor/nubia/nx512j/proprietary/lib64/libmulti_exposure.so:system/lib64/libmulti_exposure.so \
+vendor/nubia/nx512j/proprietary/lib64/libnubia_clone.so:system/lib64/libnubia_clone.so \
+vendor/nubia/nx512j/proprietary/lib64/libnubia_delay_recorder.so:system/lib64/libnubia_delay_recorder.so \
+vendor/nubia/nx512j/proprietary/lib64/libnubiajpeg.so:system/lib64/libnubiajpeg.so \
+vendor/nubia/nx512j/proprietary/lib64/libpanoramahelper.so:system/lib64/libpanoramahelper.so \
+vendor/nubia/nx512j/proprietary/lib64/libproductinfo.so:system/lib64/libproductinfo.so \
 vendor/nubia/nx512j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Unsigned_configdata.ncd \
 vendor/nubia/nx512j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0090_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0090_Generic_I2C_NCD_Unsigned_configdata.ncd \
 vendor/nubia/nx512j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0092_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0092_Generic_I2C_NCD_Unsigned_configdata.ncd \
