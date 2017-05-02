@@ -231,6 +231,7 @@ vendor/nubia/nx512j/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vend
 vendor/nubia/nx512j/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/soundfx:system/vendor/lib/soundfx \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libwcnss_qmi.so:system/vendor/lib64/libwcnss_qmi.so \
 vendor/nubia/nx512j/proprietary/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
 vendor/nubia/nx512j/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
 vendor/nubia/nx512j/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
