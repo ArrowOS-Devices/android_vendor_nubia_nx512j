@@ -364,6 +364,7 @@ vendor/nubia/nx512j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0090
 vendor/nubia/nx512j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0092_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0092_Generic_I2C_NCD_Unsigned_configdata.ncd \
 vendor/nubia/nx512j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0102_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0102_Generic_I2C_NCD_Unsigned_configdata.ncd \
 vendor/nubia/nx512j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0104_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0104_Generic_I2C_NCD_Unsigned_configdata.ncd \
+vendor/nubia/nx512j/proprietary/vendor/firmware/BCM20795A2_001.003.025.0005.0035_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A2_001.003.025.0005.0035_Generic_I2C_NCD_Unsigned_configdata.ncd \
 vendor/nubia/nx512j/proprietary/vendor/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/libqti-iop-client.so:system/lib/libqti-iop-client.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so:system/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so \
