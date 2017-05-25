@@ -52,6 +52,7 @@ vendor/nubia/nx512j/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware
 vendor/nubia/nx512j/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
 vendor/nubia/nx512j/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
 vendor/nubia/nx512j/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+vendor/nubia/nx512j/proprietary/etc/permissions/com.qrd.wappush.xml:system/etc/permissions/com.qrd.wappush.xml \
 vendor/nubia/nx512j/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.msm8916.so \
 vendor/nubia/nx512j/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
 vendor/nubia/nx512j/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
@@ -77,6 +78,9 @@ vendor/nubia/nx512j/proprietary/lib64/libnubia_servers.so:system/lib64/libnubia_
 vendor/nubia/nx512j/proprietary/lib64/libnubia_trajectory.so:system/lib64/libnubia_trajectory.so \
 vendor/nubia/nx512j/proprietary/lib64/libobjectclear.so:system/lib64/libobjectclear.so \
 vendor/nubia/nx512j/proprietary/lib64/libobjectclear_nubia.so:system/lib64/libobjectclear_nubia.so \
+vendor/nubia/nx512j/proprietary/lib64/librilqmiservices.so:system/lib64/librilqmiservices.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
 vendor/nubia/nx512j/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
 vendor/nubia/nx512j/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
 vendor/nubia/nx512j/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
@@ -379,6 +383,7 @@ PRODUCT_PACKAGES += \
     shutdownlistener \
     TimeService \
     qcrilmsgtunnel \
+    com.qrd.wappush \
     qcnvitems \
     qcrilhook \
     NubiaCamera
