@@ -55,7 +55,6 @@ vendor/nubia/nx512j/proprietary/etc/permissions/qcrilhook.xml:system/etc/permiss
 vendor/nubia/nx512j/proprietary/etc/permissions/com.qrd.wappush.xml:system/etc/permissions/com.qrd.wappush.xml \
 vendor/nubia/nx512j/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.msm8916.so \
 vendor/nubia/nx512j/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
-vendor/nubia/nx512j/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
 vendor/nubia/nx512j/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
 vendor/nubia/nx512j/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
 vendor/nubia/nx512j/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
@@ -92,7 +91,6 @@ vendor/nubia/nx512j/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/
 vendor/nubia/nx512j/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
 vendor/nubia/nx512j/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
 vendor/nubia/nx512j/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
-vendor/nubia/nx512j/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -223,9 +221,8 @@ vendor/nubia/nx512j/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsm
 vendor/nubia/nx512j/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
-vendor/nubia/nx512j/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-vendor/nubia/nx512j/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-vendor/nubia/nx512j/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+vendor/nubia/nx512j/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+vendor/nubia/nx512j/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/mediadrm:system/vendor/lib/mediadrm \
 vendor/nubia/nx512j/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
