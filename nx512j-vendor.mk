@@ -79,6 +79,15 @@ vendor/nubia/nx512j/proprietary/lib64/libobjectclear.so:system/lib64/libobjectcl
 vendor/nubia/nx512j/proprietary/lib64/libobjectclear_nubia.so:system/lib64/libobjectclear_nubia.so \
 vendor/nubia/nx512j/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
 vendor/nubia/nx512j/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+vendor/nubia/nx512j/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
+vendor/nubia/nx512j/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
+vendor/nubia/nx512j/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
+vendor/nubia/nx512j/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
+vendor/nubia/nx512j/proprietary/vendor/lib/libmm-als.so:system/vendor/lib/libmm-als.so \
+vendor/nubia/nx512j/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
