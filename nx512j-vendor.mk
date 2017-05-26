@@ -372,6 +372,36 @@ vendor/nubia/nx512j/proprietary/vendor/lib/qcdrm/playready/lib/mediadrm/libprmed
 vendor/nubia/nx512j/proprietary/vendor/lib64/libqti-iop-client.so:system/lib64/libqti-iop-client.so \
 vendor/nubia/nx512j/proprietary/vendor/lib64/qcdrm/playready/lib/libtzplayready_customer.so:system/lib64/qcdrm/playready/lib/libtzplayready_customer.so \
 vendor/nubia/nx512j/proprietary/vendor/lib64/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so:system/lib64/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so \
+vendor/nubia/nx512j/proprietary/bin/cnd:system/bin/cnd \
+vendor/nubia/nx512j/proprietary/bin/dpmd:system/bin/dpmd \
+vendor/nubia/nx512j/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
+vendor/nubia/nx512j/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
+vendor/nubia/nx512j/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
+vendor/nubia/nx512j/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
+vendor/nubia/nx512j/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
+vendor/nubia/nx512j/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
+vendor/nubia/nx512j/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
+vendor/nubia/nx512j/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
+vendor/nubia/nx512j/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
+vendor/nubia/nx512j/proprietary/framework/dpm.jar:system/framework/dpm.jar \
+vendor/nubia/nx512j/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
+vendor/nubia/nx512j/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
+vendor/nubia/nx512j/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+vendor/nubia/nx512j/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
+vendor/nubia/nx512j/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
+vendor/nubia/nx512j/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
+vendor/nubia/nx512j/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
+vendor/nubia/nx512j/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
+vendor/nubia/nx512j/proprietary/vendor/lib/libdpmtcm.so:system/vendor/lib/libdpmtcm.so \
+vendor/nubia/nx512j/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libdpmctmgr.so:system/vendor/lib64/libdpmctmgr.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libdpmfdmgr.so:system/vendor/lib64/libdpmfdmgr.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libdpmframework.so:system/vendor/lib64/libdpmframework.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libdpmnsrm.so:system/vendor/lib64/libdpmnsrm.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libdpmtcm.so:system/vendor/lib64/libdpmtcm.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
@@ -382,5 +412,6 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     com.qrd.wappush \
     qcnvitems \
+    CNEService \
     qcrilhook \
     NubiaCamera

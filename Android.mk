@@ -113,13 +113,25 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
- include $(CLEAR_VARS)
+include $(CLEAR_VARS)
 LOCAL_MODULE := com.qrd.wappush
 LOCAL_MODULE_OWNER := nubia
 LOCAL_SRC_FILES := proprietary/framework/com.qrd.wappush.jar
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := CNEService
+LOCAL_MODULE_OWNER := nubia
+LOCAL_SRC_FILES := proprietary/priv-app/CNEService/CNEService.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 endif
