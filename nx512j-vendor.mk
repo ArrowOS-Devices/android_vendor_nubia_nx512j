@@ -167,7 +167,6 @@ vendor/nubia/nx512j/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so
 vendor/nubia/nx512j/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-vendor/nubia/nx512j/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
@@ -192,12 +191,7 @@ vendor/nubia/nx512j/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/libl
 vendor/nubia/nx512j/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
-vendor/nubia/nx512j/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
-vendor/nubia/nx512j/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
-vendor/nubia/nx512j/proprietary/vendor/lib/libmm-als.so:system/vendor/lib/libmm-als.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
-vendor/nubia/nx512j/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
-vendor/nubia/nx512j/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
@@ -352,9 +346,7 @@ vendor/nubia/nx512j/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblq
 vendor/nubia/nx512j/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
 vendor/nubia/nx512j/proprietary/vendor/lib64/libmm-abl-oem.so:system/vendor/lib64/libmm-abl-oem.so \
 vendor/nubia/nx512j/proprietary/vendor/lib64/libmm-abl.so:system/vendor/lib64/libmm-abl.so \
-vendor/nubia/nx512j/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
 vendor/nubia/nx512j/proprietary/vendor/lib64/libmm-hdcpmgr.so:system/vendor/lib64/libmm-hdcpmgr.so \
-vendor/nubia/nx512j/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
 vendor/nubia/nx512j/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:system/vendor/lib64/libmmcamera2_frame_algorithm.so \
 vendor/nubia/nx512j/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:system/vendor/lib64/libmmcamera2_stats_algorithm.so \
 vendor/nubia/nx512j/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
