@@ -53,7 +53,6 @@ vendor/nubia/nx512j/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware
 vendor/nubia/nx512j/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
 vendor/nubia/nx512j/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
 vendor/nubia/nx512j/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
-vendor/nubia/nx512j/proprietary/etc/permissions/com.qrd.wappush.xml:system/etc/permissions/com.qrd.wappush.xml \
 vendor/nubia/nx512j/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
 vendor/nubia/nx512j/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
 vendor/nubia/nx512j/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
@@ -402,7 +401,6 @@ PRODUCT_PACKAGES += \
     shutdownlistener \
     TimeService \
     qcrilmsgtunnel \
-    com.qrd.wappush \
     qcnvitems \
     CNEService \
     qcrilhook \
