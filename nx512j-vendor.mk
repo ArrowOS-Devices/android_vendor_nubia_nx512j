@@ -119,6 +119,8 @@ vendor/nubia/nx512j/proprietary/lib64/libobjectclear.so:system/lib64/libobjectcl
 vendor/nubia/nx512j/proprietary/lib64/libpanoramahelper.so:system/lib64/libpanoramahelper.so \
 vendor/nubia/nx512j/proprietary/lib64/libproductinfo.so:system/lib64/libproductinfo.so \
 vendor/nubia/nx512j/proprietary/lib64/librilqmiservices.so:system/lib64/librilqmiservices.so \
+vendor/nubia/nx512j/proprietary/lib64/libwcnss_qmi.so:system/lib64/libwcnss_qmi.so \
+vendor/nubia/nx512j/proprietary/lib64/libwpa_qmi_eap_proxy.so:system/lib64/libwpa_qmi_eap_proxy.so \
 vendor/nubia/nx512j/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
 vendor/nubia/nx512j/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
 vendor/nubia/nx512j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Unsigned_configdata.ncd \
@@ -398,14 +400,17 @@ vendor/nubia/nx512j/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/li
 vendor/nubia/nx512j/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
 vendor/nubia/nx512j/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
 vendor/nubia/nx512j/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
-vendor/nubia/nx512j/proprietary/vendor/lib64/libwcnss_qmi.so:system/vendor/lib64/libwcnss_qmi.so \
 vendor/nubia/nx512j/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libmm-als.so:system/vendor/lib64/libmm-als.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
 vendor/nubia/nx512j/proprietary/vendor/lib64/qcdrm/playready/lib/libtzplayready_customer.so:system/lib64/qcdrm/playready/lib/libtzplayready_customer.so \
 vendor/nubia/nx512j/proprietary/vendor/lib64/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so:system/lib64/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api \
+    libwpa_qmi_eap_proxy \
     libtime_genoff \
     shutdownlistener \
     TimeService \
