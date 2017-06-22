@@ -25,6 +25,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
 vendor/nubia/nx512j/proprietary/app/NubiaCamera/NubiaCamera.apk:system/app/NubiaCamera/NubiaCamera.apk \
+vendor/nubia/nx512j/proprietary/app/QtiTelephonyService/QtiTelephonyService.apk:system/app/QtiTelephonyService/QtiTelephonyService.apk \
 vendor/nubia/nx512j/proprietary/bin/adsprpcd:system/bin/adsprpcd \
 vendor/nubia/nx512j/proprietary/bin/akmd09911:system/bin/akmd09911 \
 vendor/nubia/nx512j/proprietary/bin/btnvtool:system/bin/btnvtool \
@@ -68,6 +69,11 @@ vendor/nubia/nx512j/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/p
 vendor/nubia/nx512j/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
 vendor/nubia/nx512j/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
 vendor/nubia/nx512j/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+vendor/nubia/nx512j/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+vendor/nubia/nx512j/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
+vendor/nubia/nx512j/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
+vendor/nubia/nx512j/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
+vendor/nubia/nx512j/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
 vendor/nubia/nx512j/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
 vendor/nubia/nx512j/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
 vendor/nubia/nx512j/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
@@ -417,4 +423,5 @@ PRODUCT_PACKAGES += \
     qcnvitems \
     CNEService \
     qcrilhook \
-    NubiaCamera
+    NubiaCamera \
+    fastdormancy
