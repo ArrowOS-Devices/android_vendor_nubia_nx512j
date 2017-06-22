@@ -454,7 +454,9 @@ vendor/nubia/nx512j/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwm
 vendor/nubia/nx512j/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
 vendor/nubia/nx512j/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
 vendor/nubia/nx512j/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
-vendor/nubia/nx512j/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so
+vendor/nubia/nx512j/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
+vendor/nubia/nx512j/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
+vendor/nubia/nx512j/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
@@ -469,4 +471,5 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     NubiaCamera \
     fastdormancy \
-    com.qualcomm.location
+    com.qualcomm.location \
+    colorservice
