@@ -33,6 +33,7 @@ vendor/nubia/nx512j/proprietary/bin/cnd:system/bin/cnd \
 vendor/nubia/nx512j/proprietary/bin/dpmd:system/bin/dpmd \
 vendor/nubia/nx512j/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
 vendor/nubia/nx512j/proprietary/bin/irsc_util:system/bin/irsc_util \
+vendor/nubia/nx512j/proprietary/bin/loc_launcher:system/bin/loc_launcher \
 vendor/nubia/nx512j/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
 vendor/nubia/nx512j/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
 vendor/nubia/nx512j/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
@@ -410,7 +411,50 @@ vendor/nubia/nx512j/proprietary/vendor/lib64/libmm-als.so:system/vendor/lib64/li
 vendor/nubia/nx512j/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
 vendor/nubia/nx512j/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
 vendor/nubia/nx512j/proprietary/vendor/lib64/qcdrm/playready/lib/libtzplayready_customer.so:system/lib64/qcdrm/playready/lib/libtzplayready_customer.so \
-vendor/nubia/nx512j/proprietary/vendor/lib64/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so:system/lib64/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so
+vendor/nubia/nx512j/proprietary/vendor/lib64/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so:system/lib64/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so \
+vendor/nubia/nx512j/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
+vendor/nubia/nx512j/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
+vendor/nubia/nx512j/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
+vendor/nubia/nx512j/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
+vendor/nubia/nx512j/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
+vendor/nubia/nx512j/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+vendor/nubia/nx512j/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
+vendor/nubia/nx512j/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
+vendor/nubia/nx512j/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
+vendor/nubia/nx512j/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
+vendor/nubia/nx512j/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
+vendor/nubia/nx512j/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
+vendor/nubia/nx512j/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
+vendor/nubia/nx512j/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
+vendor/nubia/nx512j/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+vendor/nubia/nx512j/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
+vendor/nubia/nx512j/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
+vendor/nubia/nx512j/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
+vendor/nubia/nx512j/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
+vendor/nubia/nx512j/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
+vendor/nubia/nx512j/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
+vendor/nubia/nx512j/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+vendor/nubia/nx512j/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
+vendor/nubia/nx512j/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libasn1cper.so:system/vendor/lib64/libasn1cper.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libasn1crt.so:system/vendor/lib64/libasn1crt.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libasn1crtx.so:system/vendor/lib64/libasn1crtx.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libloc_ext.so:system/vendor/lib64/libloc_ext.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/liblowi_wifihal_nl.so:system/vendor/lib64/liblowi_wifihal_nl.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
@@ -424,4 +468,5 @@ PRODUCT_PACKAGES += \
     CNEService \
     qcrilhook \
     NubiaCamera \
-    fastdormancy
+    fastdormancy \
+    com.qualcomm.location
