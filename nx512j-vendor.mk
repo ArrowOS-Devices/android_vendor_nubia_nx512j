@@ -456,7 +456,12 @@ vendor/nubia/nx512j/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64
 vendor/nubia/nx512j/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
 vendor/nubia/nx512j/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
 vendor/nubia/nx512j/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
-vendor/nubia/nx512j/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar
+vendor/nubia/nx512j/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
+vendor/nubia/nx512j/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
+vendor/nubia/nx512j/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
