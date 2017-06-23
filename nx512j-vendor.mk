@@ -120,7 +120,6 @@ vendor/nubia/nx512j/proprietary/lib64/libpanoramahelper.so:system/lib64/libpanor
 vendor/nubia/nx512j/proprietary/lib64/libproductinfo.so:system/lib64/libproductinfo.so \
 vendor/nubia/nx512j/proprietary/lib64/librilqmiservices.so:system/lib64/librilqmiservices.so \
 vendor/nubia/nx512j/proprietary/lib64/libwcnss_qmi.so:system/lib64/libwcnss_qmi.so \
-vendor/nubia/nx512j/proprietary/lib64/libwpa_qmi_eap_proxy.so:system/lib64/libwpa_qmi_eap_proxy.so \
 vendor/nubia/nx512j/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
 vendor/nubia/nx512j/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
 vendor/nubia/nx512j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Unsigned_configdata.ncd \
