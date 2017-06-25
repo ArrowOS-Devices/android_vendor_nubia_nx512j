@@ -404,11 +404,7 @@ vendor/nubia/nx512j/proprietary/vendor/lib64/libmm-als.so:system/vendor/lib64/li
 vendor/nubia/nx512j/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
 vendor/nubia/nx512j/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
 vendor/nubia/nx512j/proprietary/vendor/lib64/qcdrm/playready/lib/libtzplayready_customer.so:system/lib64/qcdrm/playready/lib/libtzplayready_customer.so \
-vendor/nubia/nx512j/proprietary/vendor/lib64/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so:system/lib64/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so \
-vendor/nubia/nx512j/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
-vendor/nubia/nx512j/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
-vendor/nubia/nx512j/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
-vendor/nubia/nx512j/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so
+vendor/nubia/nx512j/proprietary/vendor/lib64/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so:system/lib64/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
@@ -417,7 +413,6 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     shutdownlistener \
     TimeService \
-    QtiTetherService \
     qcrilmsgtunnel \
     qcnvitems \
     CNEService \
