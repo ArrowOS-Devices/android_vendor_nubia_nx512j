@@ -235,6 +235,7 @@ vendor/nubia/nx512j/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libm
 vendor/nubia/nx512j/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
+vendor/nubia/nx512j/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
 vendor/nubia/nx512j/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
