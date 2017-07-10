@@ -165,11 +165,4 @@ LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 endif
-
-ifeq ($(LOCAL_PATH)/radio, $(wildcard $(LOCAL_PATH)/radio))
-RADIO_FILES := $(wildcard $(LOCAL_PATH)/radio/*)
-$(foreach f, $(notdir $(RADIO_FILES)), \
-    $(call add-radio-file,radio/$(f)))
-$(call add-radio-file,../../../device/nubia/nx512j/radio/filesmap)
-endif
 endif
