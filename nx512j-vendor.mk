@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx512j/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt
 
 PRODUCT_COPY_FILES += \
-vendor/nubia/nx512j/proprietary/app/NubiaCamera/NubiaCamera.apk:system/app/NubiaCamera/NubiaCamera.apk \
 vendor/nubia/nx512j/proprietary/bin/adsprpcd:system/bin/adsprpcd \
 vendor/nubia/nx512j/proprietary/bin/akmd09911:system/bin/akmd09911 \
 vendor/nubia/nx512j/proprietary/bin/btnvtool:system/bin/btnvtool \
@@ -464,6 +463,5 @@ PRODUCT_PACKAGES += \
     qcnvitems \
     CNEService \
     qcrilhook \
-    NubiaCamera \
     com.qualcomm.location \
     colorservice

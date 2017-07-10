@@ -143,16 +143,6 @@ LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := NubiaCamera
-LOCAL_MODULE_OWNER := nubia
-LOCAL_SRC_FILES := proprietary/app/NubiaCamera/NubiaCamera.apk
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .apk
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := CNEService
 LOCAL_MODULE_OWNER := nubia
 LOCAL_SRC_FILES := proprietary/priv-app/CNEService/CNEService.apk
