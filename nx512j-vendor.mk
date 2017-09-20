@@ -60,21 +60,8 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx512j/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/nubia/nx512j/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/nubia/nx512j/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
-    vendor/nubia/nx512j/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/nubia/nx512j/proprietary/lib/libFNVfbEngineHAL.so:system/lib/libFNVfbEngineHAL.so \
-    vendor/nubia/nx512j/proprietary/lib/libImageAlogrithm.so:system/lib/libImageAlogrithm.so \
-    vendor/nubia/nx512j/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/nubia/nx512j/proprietary/lib/libmmcamera_nubiacustpro.so:system/lib/libmmcamera_nubiacustpro.so \
-    vendor/nubia/nx512j/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/nubia/nx512j/proprietary/lib/libnubia_effect.so:system/lib/libnubia_effect.so \
-    vendor/nubia/nx512j/proprietary/lib/libnubiajpeg.so:system/lib/libnubiajpeg.so \
-    vendor/nubia/nx512j/proprietary/lib/libnubiajpeg_temp.so:system/lib/libnubiajpeg_temp.so \
-    vendor/nubia/nx512j/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/nubia/nx512j/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
-    vendor/nubia/nx512j/proprietary/lib64/libFNVfbEngineLib.so:system/lib64/libFNVfbEngineLib.so \
-    vendor/nubia/nx512j/proprietary/lib64/libImageAlogrithm.so:system/lib64/libImageAlogrithm.so \
-    vendor/nubia/nx512j/proprietary/lib64/libnubiajpeg.so:system/lib64/libnubiajpeg.so \
-    vendor/nubia/nx512j/proprietary/lib64/libnubiajpeg_temp.so:system/lib64/libnubiajpeg_temp.so \
     vendor/nubia/nx512j/proprietary/lib64/librilqmiservices.so:system/lib64/librilqmiservices.so \
     vendor/nubia/nx512j/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/nubia/nx512j/proprietary/lib64/libwcnss_qmi.so:system/lib64/libwcnss_qmi.so \
