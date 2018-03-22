@@ -1,5 +1,5 @@
 # Copyright (C) 2015-2016 The CyanogenMod Project
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -60,10 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx512j/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/nubia/nx512j/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/nubia/nx512j/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
-    vendor/nubia/nx512j/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
-    vendor/nubia/nx512j/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/nubia/nx512j/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/nubia/nx512j/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/nubia/nx512j/proprietary/lib/libmorpho_image_converter.so:system/lib/libmorpho_image_converter.so \
     vendor/nubia/nx512j/proprietary/lib/libmorpho_jpeg_io.so:system/lib/libmorpho_jpeg_io.so \
     vendor/nubia/nx512j/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
@@ -73,7 +69,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx512j/proprietary/lib/libnubia_trajectory.so:system/lib/libnubia_trajectory.so \
     vendor/nubia/nx512j/proprietary/lib/libobjectclear.so:system/lib/libobjectclear.so \
     vendor/nubia/nx512j/proprietary/lib/libobjectclear_nubia.so:system/lib/libobjectclear_nubia.so \
-    vendor/nubia/nx512j/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/nubia/nx512j/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/nubia/nx512j/proprietary/lib64/libAlgorithm.so:system/lib64/libAlgorithm.so \
     vendor/nubia/nx512j/proprietary/lib64/libBuffer.so:system/lib64/libBuffer.so \
@@ -224,8 +219,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx512j/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib/libprotobuf-cpp-biss.so:system/vendor/lib/libprotobuf-cpp-biss.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib/libprotobuf-cpp-shit.so:system/vendor/lib/libprotobuf-cpp-shit.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
@@ -246,7 +239,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx512j/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
@@ -350,8 +342,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libmmparser.so:system/vendor/lib64/libmmparser.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib64/libprotobuf-cpp-biss.so:system/vendor/lib64/libprotobuf-cpp-biss.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib64/libprotobuf-cpp-shit.so:system/vendor/lib64/libprotobuf-cpp-shit.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
