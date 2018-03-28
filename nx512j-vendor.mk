@@ -61,6 +61,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx512j/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/nubia/nx512j/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/nubia/nx512j/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
+    vendor/nubia/nx512j/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
     vendor/nubia/nx512j/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/nubia/nx512j/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/nubia/nx512j/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -76,6 +77,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx512j/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/nubia/nx512j/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/nubia/nx512j/proprietary/lib64/libAlgorithm.so:system/lib64/libAlgorithm.so \
+    vendor/nubia/nx512j/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/nubia/nx512j/proprietary/lib64/libBuffer.so:system/lib64/libBuffer.so \
     vendor/nubia/nx512j/proprietary/lib64/libFNVfbEngineLib.so:system/lib64/libFNVfbEngineLib.so \
     vendor/nubia/nx512j/proprietary/lib64/libIndependenceUtil.so:system/lib64/libIndependenceUtil.so \
