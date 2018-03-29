@@ -319,7 +319,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libchromatix_imx234_snapshot.so:system/vendor/lib64/libchromatix_imx234_snapshot.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libchromatix_imx234_snapshot_nightmode.so:system/vendor/lib64/libchromatix_imx234_snapshot_nightmode.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libchromatix_imx234_snapshot_nightmode_1.so:system/vendor/lib64/libchromatix_imx234_snapshot_nightmode_1.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
