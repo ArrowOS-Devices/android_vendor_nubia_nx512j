@@ -39,10 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx512j/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
     vendor/nubia/nx512j/proprietary/vendor/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw \
     vendor/nubia/nx512j/proprietary/vendor/firmware/a420_pm4.fw:system/vendor/firmware/a420_pm4.fw \
-    vendor/nubia/nx512j/proprietary/vendor/etc/firmware/cpp_firmware_v1_1_1.fw:system/vendor/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/nubia/nx512j/proprietary/vendor/etc/firmware/cpp_firmware_v1_1_6.fw:system/vendor/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/nubia/nx512j/proprietary/vendor/etc/firmware/cpp_firmware_v1_2_0.fw:system/vendor/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/nubia/nx512j/proprietary/vendor/etc/firmware/cpp_firmware_v1_4_0.fw:system/vendor/etc/firmware/cpp_firmware_v1_4_0.fw \
     vendor/nubia/nx512j/proprietary/vendor/firmware/cyttsp5_fw.bin:system/vendor/firmware/cyttsp5_fw.bin \
     vendor/nubia/nx512j/proprietary/vendor/firmware/ice40.bin:system/vendor/firmware/ice40.bin \
     vendor/nubia/nx512j/proprietary/vendor/firmware/leia_pfp_470.fw:system/vendor/firmware/leia_pfp_470.fw \
@@ -55,60 +51,64 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx512j/proprietary/vendor/firmware/venus.b04:system/vendor/firmware/venus.b04 \
     vendor/nubia/nx512j/proprietary/vendor/firmware/venus.mbn:system/vendor/firmware/venus.mbn \
     vendor/nubia/nx512j/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt \
-    vendor/nubia/nx512j/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
+    vendor/nubia/nx512j/proprietary/vendor/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/vendor/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/nubia/nx512j/proprietary/vendor/etc/permissions/qcnvitems.xml:system/vendor/etc/permissions/qcnvitems.xml \
     vendor/nubia/nx512j/proprietary/vendor/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
-    vendor/nubia/nx512j/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
-    vendor/nubia/nx512j/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
-    vendor/nubia/nx512j/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
-    vendor/nubia/nx512j/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/nubia/nx512j/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/nubia/nx512j/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/nubia/nx512j/proprietary/lib/libmorpho_image_converter.so:system/lib/libmorpho_image_converter.so \
-    vendor/nubia/nx512j/proprietary/lib/libmorpho_jpeg_io.so:system/lib/libmorpho_jpeg_io.so \
-    vendor/nubia/nx512j/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
-    vendor/nubia/nx512j/proprietary/lib/libmorpho_strobe_photo_jni.so:system/lib/libmorpho_strobe_photo_jni.so \
-    vendor/nubia/nx512j/proprietary/lib/libnubia_runtime.so:system/lib/libnubia_runtime.so \
-    vendor/nubia/nx512j/proprietary/lib/libnubia_servers.so:system/lib/libnubia_servers.so \
-    vendor/nubia/nx512j/proprietary/lib/libnubia_trajectory.so:system/lib/libnubia_trajectory.so \
-    vendor/nubia/nx512j/proprietary/lib/libobjectclear.so:system/lib/libobjectclear.so \
-    vendor/nubia/nx512j/proprietary/lib/libobjectclear_nubia.so:system/lib/libobjectclear_nubia.so \
-    vendor/nubia/nx512j/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/nubia/nx512j/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
-    vendor/nubia/nx512j/proprietary/lib64/libAlgorithm.so:system/lib64/libAlgorithm.so \
-    vendor/nubia/nx512j/proprietary/lib64/libBuffer.so:system/lib64/libBuffer.so \
-    vendor/nubia/nx512j/proprietary/lib64/libFNVfbEngineLib.so:system/lib64/libFNVfbEngineLib.so \
-    vendor/nubia/nx512j/proprietary/lib64/libIndependenceUtil.so:system/lib64/libIndependenceUtil.so \
-    vendor/nubia/nx512j/proprietary/lib64/libNubiaImageAlgorithm.so:system/lib64/libNubiaImageAlgorithm.so \
-    vendor/nubia/nx512j/proprietary/lib64/libNubiaxmptoolkit.so:system/lib64/libNubiaxmptoolkit.so \
-    vendor/nubia/nx512j/proprietary/lib64/libalRnB.so:system/lib64/libalRnB.so \
-    vendor/nubia/nx512j/proprietary/lib64/libalSDE2.so:system/lib64/libalSDE2.so \
-    vendor/nubia/nx512j/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
-    vendor/nubia/nx512j/proprietary/lib64/libavcodec.so:system/lib64/libavcodec.so \
-    vendor/nubia/nx512j/proprietary/lib64/libavfilter.so:system/lib64/libavfilter.so \
-    vendor/nubia/nx512j/proprietary/lib64/libavformat.so:system/lib64/libavformat.so \
-    vendor/nubia/nx512j/proprietary/lib64/libavutil.so:system/lib64/libavutil.so \
-    vendor/nubia/nx512j/proprietary/lib64/libbuffer_manager.so:system/lib64/libbuffer_manager.so \
-    vendor/nubia/nx512j/proprietary/lib64/libmorpho_image_converter.so:system/lib64/libmorpho_image_converter.so \
-    vendor/nubia/nx512j/proprietary/lib64/libmorpho_jpeg_io.so:system/lib64/libmorpho_jpeg_io.so \
-    vendor/nubia/nx512j/proprietary/lib64/libmorpho_memory_allocator.so:system/lib64/libmorpho_memory_allocator.so \
-    vendor/nubia/nx512j/proprietary/lib64/libmorpho_panorama_gp.so:system/lib64/libmorpho_panorama_gp.so \
-    vendor/nubia/nx512j/proprietary/lib64/libmulti_exposure.so:system/lib64/libmulti_exposure.so \
-    vendor/nubia/nx512j/proprietary/lib64/libnubia_clone.so:system/lib64/libnubia_clone.so \
-    vendor/nubia/nx512j/proprietary/lib64/libnubia_delay_recorder.so:system/lib64/libnubia_delay_recorder.so \
-    vendor/nubia/nx512j/proprietary/lib64/libnubia_runtime.so:system/lib64/libnubia_runtime.so \
-    vendor/nubia/nx512j/proprietary/lib64/libnubia_servers.so:system/lib64/libnubia_servers.so \
-    vendor/nubia/nx512j/proprietary/lib64/libnubia_trajectory.so:system/lib64/libnubia_trajectory.so \
-    vendor/nubia/nx512j/proprietary/lib64/libnubiajpeg.so:system/lib64/libnubiajpeg.so \
-    vendor/nubia/nx512j/proprietary/lib64/libobjectclear.so:system/lib64/libobjectclear.so \
-    vendor/nubia/nx512j/proprietary/lib64/libobjectclear_nubia.so:system/lib64/libobjectclear_nubia.so \
-    vendor/nubia/nx512j/proprietary/lib64/libpanoramahelper.so:system/lib64/libpanoramahelper.so \
-    vendor/nubia/nx512j/proprietary/lib64/libproductinfo.so:system/lib64/libproductinfo.so \
+    vendor/nubia/nx512j/proprietary/vendor/framework/com.qti.snapdragon.sdk.display.jar:system/vendor/framework/com.qti.snapdragon.sdk.display.jar \
+    vendor/nubia/nx512j/proprietary/vendor/lib/hw/camera.msm8916.so:system/vendor/lib/hw/camera.msm8916.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib/libaptX_encoder.so:system/vendor/lib/libaptX_encoder.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib/libmorpho_image_converter.so:system/vendor/lib/libmorpho_image_converter.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib/libmorpho_jpeg_io.so:system/vendor/lib/libmorpho_jpeg_io.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib/libmorpho_memory_allocator.so:system/vendor/lib/libmorpho_memory_allocator.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib/libmorpho_strobe_photo_jni.so:system/vendor/lib/libmorpho_strobe_photo_jni.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib/libnubia_runtime.so:system/vendor/lib/libnubia_runtime.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib/libnubia_servers.so:system/vendor/lib/libnubia_servers.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib/libnubia_trajectory.so:system/vendor/lib/libnubia_trajectory.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib/libobjectclear.so:system/vendor/lib/libobjectclear.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib/libobjectclear_nubia.so:system/vendor/lib/libobjectclear_nubia.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib/librmnetctl.so:system/vendor/lib/librmnetctl.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib64/libAlgorithm.so:system/vendor/lib64/libAlgorithm.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib64/libBuffer.so:system/vendor/lib64/libBuffer.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib64/libFNVfbEngineLib.so:system/vendor/lib64/libFNVfbEngineLib.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib64/libIndependenceUtil.so:system/vendor/lib64/libIndependenceUtil.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib64/libNubiaImageAlgorithm.so:system/vendor/lib64/libNubiaImageAlgorithm.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib64/libNubiaxmptoolkit.so:system/vendor/lib64/libNubiaxmptoolkit.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib64/libalRnB.so:system/vendor/lib64/libalRnB.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib64/libalSDE2.so:system/vendor/lib64/libalSDE2.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib64/libaptX_encoder.so:system/vendor/lib64/libaptX_encoder.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib64/libavcodec.so:system/vendor/lib64/libavcodec.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib64/libavfilter.so:system/vendor/lib64/libavfilter.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib64/libavformat.so:system/vendor/lib64/libavformat.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib64/libavutil.so:system/vendor/lib64/libavutil.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib64/libbuffer_manager.so:system/vendor/lib64/libbuffer_manager.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib64/libmorpho_image_converter.so:system/vendor/lib64/libmorpho_image_converter.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib64/libmorpho_jpeg_io.so:system/vendor/lib64/libmorpho_jpeg_io.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib64/libmorpho_memory_allocator.so:system/vendor/lib64/libmorpho_memory_allocator.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib64/libmorpho_panorama_gp.so:system/vendor/lib64/libmorpho_panorama_gp.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib64/libmulti_exposure.so:system/vendor/lib64/libmulti_exposure.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib64/libnubia_clone.so:system/vendor/lib64/libnubia_clone.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib64/libnubia_delay_recorder.so:system/vendor/lib64/libnubia_delay_recorder.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib64/libnubia_runtime.so:system/vendor/lib64/libnubia_runtime.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib64/libnubia_servers.so:system/vendor/lib64/libnubia_servers.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib64/libnubia_trajectory.so:system/vendor/lib64/libnubia_trajectory.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib64/libnubiajpeg.so:system/vendor/lib64/libnubiajpeg.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib64/libobjectclear.so:system/vendor/lib64/libobjectclear.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib64/libobjectclear_nubia.so:system/vendor/lib64/libobjectclear_nubia.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib64/libpanoramahelper.so:system/vendor/lib64/libpanoramahelper.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib64/libproductinfo.so:system/vendor/lib64/libproductinfo.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/librilqmiservices.so:system/vendor/lib64/librilqmiservices.so \
-    vendor/nubia/nx512j/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
-    vendor/nubia/nx512j/proprietary/lib64/libwcnss_qmi.so:system/lib64/libwcnss_qmi.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib64/librmnetctl.so:system/vendor/lib64/librmnetctl.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib64/libwcnss_qmi.so:system/vendor/lib64/libwcnss_qmi.so \
     vendor/nubia/nx512j/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/nubia/nx512j/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/nubia/nx512j/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:system/vendor/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/nubia/nx512j/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/nubia/nx512j/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/nubia/nx512j/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:system/vendor/firmware/cpp_firmware_v1_4_0.fw \
     vendor/nubia/nx512j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/nubia/nx512j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0090_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0090_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/nubia/nx512j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0092_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0092_Generic_I2C_NCD_Unsigned_configdata.ncd \
@@ -387,9 +387,9 @@ PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api \
     libtime_genoff \
-    colorservice \
-    qcrilmsgtunnel \
     TimeService \
+    colorservice \
     shutdownlistener \
+    qcrilmsgtunnel \
     qcnvitems \
     qcrilhook
